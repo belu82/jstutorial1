@@ -1,0 +1,33 @@
+7. setup the webpack serv: 
+
+ - npm install webpack-dev-server --save-dev
+	- webpack.config.js add more command: 
+		devServer: {
+        contentBase: './dist'
+    }
+
+- package.json : 
+	    "start": "webpack-dev-server --mode development --open"
+
+átírni: 
+ output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'js/bundle.js'
+
+- npm install html-webpcak-plugin --save-dev,
+	wp.js: const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+8. Automatic reload the webpage, when save the code: 
+    - npm install webpack-dev-server --save-dev
+
+11: 
+ - npm install axios --save
+
+
+ 23: 
+ add external packages: https://github.com/ekg/fraction.js/
+    npm install fractional
+
+24: 
+add uniqId: https://github.com/adamhalasz/uniqid
+    npm install uniqid
